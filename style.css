@@ -409,6 +409,13 @@ font-size: 14px;
     margin-bottom: 15;
     text-align: left;
 }
+.facilities h1{
+    font-size: 36px;
+    font-weight: 600;
+    position: relative;
+    top: -50px;
+    
+}
 
 
 /* reviews */
