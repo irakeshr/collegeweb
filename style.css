@@ -91,34 +91,21 @@ nav{
 
  /* mission and vision */
 
-
-
-.m-v{
-    min-height:70px ;
-    width: 85%;
-    background:rgb(200 201 209 / 49%);
-    border-radius: 8px;
-    margin:5px;
-    position: relative;
-    top: 75px;
+ .main-v-m p{
+    line-height: 22px;
+    font-weight: 300;
+    font-size: 14px;
+    
+ }
+ .main-v-m h1{
+    margin-top: 15px;
+    font-size: medium;
+ }
+.main-v-m{
+   position: relative;
+   top: 100px;
 }
-.m-v h4{
-    padding: 5px;
-    font-weight: 800;
-}
-.m-v1 h4{
-    padding: 5px;
-    font-weight: 800;
-}
-.m-v1{
-    min-height:60px ;
-    width: 85%;
-    background:rgb(200 201 209 / 49%);
-    border-radius: 8px;
-    margin:5px;
-    position: relative;
-    top: 140px;
-}
+ 
  /* end */
 
 
@@ -268,7 +255,7 @@ nav .fa-solid{
         width: 70%;
         left: 44px;
     }
-    .m-v,.m-v1{
+     .main-v-m{
         display: none;
     }
     .welcome h1{
