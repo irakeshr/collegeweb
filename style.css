@@ -263,8 +263,9 @@ nav .fa-solid{
         font-size: 18px;
     }
     .welcome p{
-        padding-left:35px ;
+        padding-left: 35px;
         margin-right: 37px;
+        text-align: center;
     }
 }
 
