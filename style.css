@@ -95,6 +95,7 @@ nav{
     line-height: 22px;
     font-weight: 300;
     font-size: 14px;
+    text-align: center;
     
  }
  .main-v-m h1{
@@ -263,7 +264,7 @@ nav .fa-solid{
     }
     .welcome p{
         padding-left:35px ;
-        ;
+        margin-right: 37px;
     }
 }
 
