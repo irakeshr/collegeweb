@@ -106,10 +106,10 @@
             <h1>Drop Your Comment</h1>
             <form action="">
                 
-                <input type="text" placeholder="Enter Name">
-                <input type="text" placeholder="Enter Email">
-                 <textarea   rows="5" placeholder="Enter your comment"></textarea>
-                    <button type="submit" class="visit-but drop-but">Drop</button>
+                <input type="text" placeholder="Enter Name" required>
+                <input type="text" placeholder="Enter Email" required>
+                 <textarea   rows="5" placeholder="Enter your comment" required></textarea>
+                    <button type="submit" class="visit-but drop-but" onclick="blog_submit()">Drop</button>
 
             </form>
 
@@ -155,7 +155,10 @@
 function hidemenu(){
     nav.style.right="-200px"
 }
-
+function blog_submit(){
+    alert("YOUR BLOG POST HAS BEEN APPROVED AND WILL BE POSTED ON OUR WEBSITE SHORTLY.");
+     
+}
     </script>
 </body>
 </html>
