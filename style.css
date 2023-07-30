@@ -261,6 +261,7 @@ nav .fa-solid{
     }
     .welcome h1{
         font-size: 18px;
+        margin-left: 20px;  
     }
     .welcome p{
         padding-left: 35px;
@@ -314,7 +315,17 @@ h3{
 
 
 }
+.ba-h5{
+    position: relative;
+    top:45px;
+}
 
+@media(max-width:700px){
+    .ba-h5{
+        top:0px;
+    }
+
+}
 
 
 
