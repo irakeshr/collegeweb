@@ -4,7 +4,7 @@
     font-family: 'Poppins', sans-serif;
 }
 html{
-    scroll-behavior: smooth;
+    scroll-behavior:smooth;
 }
 .main-page{
     min-height: 100vh;
@@ -131,50 +131,7 @@ h1{position: relative;
     width: 100%;
     background:#3b4852;
 }
-/* image-slider */
-/* .slider-frame{
-    height: 68vh;
-    width: 650px;
-    overflow: hidden;
-    position: relative;
-    top: -50px;
-    left: -30px;
-}
-@-webkit-keyframes slider-animi{
-    0%{left:0%}
-    10%{left:0%}
-    20%{left:650%}
-    30%{left:650%}
-    40%{left:1300%}
-    50%{left:1300%}
-    60%{left:650%}
-    70%{left:650%}
-    80%{left:0%}
-    90%{left:0%}
-    100%{left:0%}
-    
-}
-.img-frame{
-    width: 1950px;
-    height: 68vh;
-    margin: 0 0 0 -1300;
-    position: relative;
-    -webkit-animation-name: slider-animi;
-    -webkit-animation-duration:66s ;
-    -webkit-animation-direction:alternate ;
-    -webkit-animation-play-state:running;
-    -webkit-animation-iteration-count:infinite ;
-}
-.img-cont{
-    height: 68vh;
-    width: 650px;
-    position: relative;
-    float:left;
-}
-.img-cont img{
-    height: 100vh;
-    width: 100%;
-} */
+
 .slider-frame{
     height: 100vh;
     width: 50%;
@@ -318,6 +275,14 @@ h3{
 .ba-h5{
     position: relative;
     top:45px;
+}
+.bba-h5{
+    position: relative;
+    top: 35px;
+}
+.msc-h5{
+    position: relative;
+    top: 20px;
 }
 
 @media(max-width:700px){
