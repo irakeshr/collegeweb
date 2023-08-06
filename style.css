@@ -26,9 +26,13 @@ nav{
     text-align:right;
    
 }
+a{
+    text-decoration: none;
+    color: aliceblue;
+}
 .welcome{
     position:relative;
-    top: 60px;
+    top:0px;
 }
 .nav-link ul li{
     list-style: none;
@@ -104,7 +108,7 @@ nav{
  }
 .main-v-m{
    position: relative;
-   top: 100px;
+   top: -100px;
 }
  
  /* end */
@@ -122,9 +126,10 @@ h1{position: relative;
     top: 50px;
     left: 160px;
  }
- a{
-    text-decoration: none;
+ .top-a{
     color: aliceblue;
+     text-decoration: none;
+     display: none;
  }
 .separater{
     height: 1px;
@@ -164,7 +169,11 @@ nav .fa-solid{
 
 
 /* course section */
-
+.course-section a{
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
 .course-section{
     width: 80%;
     text-align: center;
@@ -195,7 +204,7 @@ color: rgb(3, 3, 3);
     background: rgba(248, 226, 226, 0.423);
     box-sizing: border-box;
     padding: 20px 12px;
-    transition: .5s;
+    transition: .5s ease-in-out;
 }
 h3{
     font-weight: 600;
@@ -203,21 +212,22 @@ h3{
     margin: 10px 0;
 }
 .course-col:hover{
-    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    transform: scale(1.02);
 
 
 }
 .ba-h5{
     position: relative;
-    top:45px;
+    top:0px;
 }
 .bba-h5{
     position: relative;
-    top: 35px;
+    top:0px;
 }
 .msc-h5{
     position: relative;
-    top: 20px;
+    top:0px;
 }
 
 @media(max-width:700px){
@@ -872,4 +882,94 @@ nav .fa-solid{
         position: relative;
         top: 0px;
     }
+}
+
+
+
+
+/* bsc maths most other course styles also the same this  */
+
+.math-sub-header{
+    height: 60vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7),
+    rgba(4,9,30,0.7)),url(./images/maths.jpg);
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    color: aliceblue;
+}
+.bsc-maths{
+    width: 80%;
+    text-align: center;
+    padding-top: 80px;
+    margin: auto;
+}
+.bsc-ma-col{
+    margin-bottom: 5%;
+    border-radius: 10px;
+    transition: .5s;
+}
+.bsc-ma-col h4{
+     border-bottom: 1px solid black;
+}
+.bsc-ma-col p{
+    line-height: 22px;
+    font-weight: 300;
+    font-size: 14px;
+    padding: 20px;
+}
+.bsc-ma-col ul li{
+    /* text-align: left; */
+    padding-top: 40px;
+    list-style:circle;
+    font-weight: 300;
+    font-size: 14px;
+    padding: 20px;
+     
+}
+ 
+
+
+/* bsc physics */
+
+.phy-sub-header{
+    background-image: linear-gradient(rgba(4,9,30,0.7),
+    rgba(4,9,30,0.7)),url(./images/phy.jpg);
+}
+
+
+
+/* bsc cs  */
+.cs-sub-header{
+    background-image: linear-gradient(rgba(4,9,30,0.7),
+    rgba(4,9,30,0.7)),url(./images/bsccs.jpg);
+}
+ 
+
+.staff{
+    width: 80%;
+    text-align: center;
+    padding-top:50px;
+    margin: auto;
+    padding-bottom: 80px;
+}
+.bsc-col img{
+    width: 100%;
+}
+.bsc-col h3{
+    color: #21517a;
+}
+.bsc-col{
+    overflow: hidden;
+    border-radius: 10px;
+    background-color: aliceblue;
+     
+}
+.staff h2{
+    padding-bottom: 30px;
+    border-bottom: 1px solid black;
+}
+.staff .row{
+    padding-top: 20px;
 }
