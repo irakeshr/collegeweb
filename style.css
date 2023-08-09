@@ -875,6 +875,15 @@ nav .fa-solid{
         position: relative;
         top: 0px;
     }
+    .head-row{
+        display: grid;
+         grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
+        gap: 5px;
+    }
+    .phone-1 {
+        position: relative;
+        left: 0px;
+    }
 }
 
 
